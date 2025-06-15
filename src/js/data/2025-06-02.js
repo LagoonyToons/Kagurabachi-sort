@@ -8,9 +8,9 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to the characters that are relevant in certain arcs.",
     checked: true,
     sub: [
-      { name: "Vs. Sojo", key: "vssojo" },
-      { name: "Rakuzaichi", key: "rakuzaichi" },
-      { name: "Sword Bearer Assassination", key: "SBA" }
+      { name: "Vs. Sojo", key: "vssojo", tooltip: "Relevant characters from chapters 1-18"},
+      { name: "Rakuzaichi", key: "rakuzaichi", tooltip: "Relevant characters from chapters 19-44"},
+      { name: "Sword Bearer Assassination", key: "SBA", tooltip: "Relevant characters from chapters 45 and onwards"}
         ]
   },
   {
@@ -19,11 +19,11 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to characters based on their importance to the story.",
     checked: true,
     sub: [
-	{ name: "Main Characters", key: "protag" }, 
-	{ name: "Antagonists", key: "antag" },
+	{ name: "Main Characters", key: "protag"}, 
+	{ name: "Antagonists", key: "antag"},
 	{ name: "Supporting Characters", key: "support" },
 	{ name: "Minor Characters", key: "minor"},
-	{ name: "Fodder", key: "fodder", checked: false },
+	{ name: "Fodder", key: "fodder", checked: false},
     ]
   }
 ];
@@ -31,7 +31,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "Chihiro Rokuhira",
-    img: "5/5f/Chihiro_Rokuhira_Colored_Portrait.png",
+    img: "8/84/Chihiro_Rokuhira_Portrait.png",
     opts: {
       arc: ["vssojo", "rakuzaichi", "SBA"],
       importance: ["protag"]
@@ -39,7 +39,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kunishige Rokuhira",
-    img: "4/45/Kunishige_Rokuhira_Colored_Portrait.png",
+    img: "d/d0/Kunishige_Rokuhira_Portrait.png",
     opts: {
       arc: ["vssojo", "rakuzaichi", "SBA"],
       importance: ["protag"]
@@ -47,7 +47,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Togo Shiba",
-    img: "8/8d/Togo_Shiba_Colored_Portrait.png",
+    img: "6/6c/Togo_Shiba_Portrait.png",
     opts: {
       arc: ["vssojo", "rakuzaichi", "SBA"],
       importance: ["protag"]
@@ -87,7 +87,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Char Kyonagi",
-    img: "1/14/Char_states_that_she's_happy_today.png",
+    img: "3/3d/Char_Kyonagi_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["support"]
@@ -95,7 +95,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Char's Mother",
-    img: "P4JZ2it.png",
+    img: "2/23/Char%27s_Mother_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["minor"]
@@ -103,7 +103,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Soshiro Azami",
-    img: "ptGp0x4.png",
+    img: "1/18/Soshiro_Azami_Portrait.png",
     opts: {
       arc: ["vssojo", "SBA"],
       importance: ["protag"]
@@ -111,7 +111,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Arm Sorcerer",
-    img: "P4JZ2it.png",
+    img: "9/90/Engorged_Arms_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -119,7 +119,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chanting Sorcerer",
-    img: "P4JZ2it.png",
+    img: "d/d1/Chanting_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -127,7 +127,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ikuto Hagiwara",
-    img: "P4JZ2it.png",
+    img: "f/f7/Ikuto_Hagiwara_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["support"]
@@ -135,7 +135,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kazane Machi",
-    img: "P4JZ2it.png",
+    img: "d/dc/Kazane_Machi_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["support"]
@@ -143,7 +143,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shiyumi Harima",
-    img: "P4JZ2it.png",
+    img: "4/4e/Shiyumi_Harima_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["support"]
@@ -151,7 +151,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hajime Kugara",
-    img: "P4JZ2it.png",
+    img: "1/18/Hajime_Kugara_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["support"]
@@ -159,7 +159,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kiyohiko Uzuki",
-    img: "P4JZ2it.png",
+    img: "2/2b/Kiyohiko_Uzuki_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["support"]
@@ -167,7 +167,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Makoto Kasahara",
-    img: "P4JZ2it.png",
+    img: "7/7d/Makoto_Kasahara_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["support"]
@@ -175,7 +175,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Genichi Sojo",
-    img: "P4JZ2it.png",
+    img: "9/94/Genichi_Sojo_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["antag"]
@@ -183,7 +183,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Norisaku Madoka",
-    img: "P4JZ2it.png",
+    img: "8/8b/Norisaku_Madoka_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["antag"]
@@ -191,7 +191,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Norisaku's Sister",
-    img: "P4JZ2it.png",
+    img: "3/38/Norisaku%27s_Sister_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["minor"]
@@ -199,7 +199,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Clone Sorcerer",
-    img: "P4JZ2it.png",
+    img: "a/a2/Clone_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -207,7 +207,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Trauma Sorcerer",
-    img: "P4JZ2it.png",
+    img: "0/08/Trauma_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -215,7 +215,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Trauma Sorcerer's Brother",
-    img: "P4JZ2it.png",
+    img: "5/5f/Trauma_Sorcerer%27s_Brother_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -223,15 +223,23 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Oni Mask Sorcerer",
-    img: "P4JZ2it.png",
+    img: "3/33/Oni_Mask_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
     }
   },
   {
-    name: "Mohawk Sorcerers",
-    img: "P4JZ2it.png",
+    name: "Mohawk Sorcerer 1",
+    img: "c/ce/Tweedledee.png",
+    opts: {
+      arc: ["vssojo"],
+      importance: ["fodder"]
+    }
+  },
+  {
+    name: "Mohawk Sorcerer 2",
+    img: "8/8f/Tweedledum.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -239,7 +247,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Visor Sorcerer",
-    img: "P4JZ2it.png",
+    img: "b/b6/Visor_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -247,7 +255,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Samurai Helmet Sorcerer",
-    img: "P4JZ2it.png",
+    img: "f/fd/Samurai_Helmet_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -255,7 +263,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shack-Guarding Sorcerers",
-    img: "P4JZ2it.png",
+    img: "5/5e/Shack_Sorcerers_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -263,7 +271,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Plant Sorcerer",
-    img: "P4JZ2it.png",
+    img: "9/9d/Plant_Sorcerer_Portrait.png",
     opts: {
       arc: ["vssojo"],
       importance: ["fodder"]
@@ -271,7 +279,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hakuri Sazanami",
-    img: "vBKdDm4.png",
+    img: "8/84/Hakuri_Sazanami_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["protag"]
@@ -279,7 +287,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hiyuki Kagari",
-    img: "A7ZnuHo.png",
+    img: "f/f6/Hiyuki_Kagari_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["support"]
@@ -287,7 +295,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tafuku Mihara",
-    img: "sgZPf11.png",
+    img: "8/81/Tafuku_Mihara_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["support"]
@@ -295,7 +303,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Soya Sazanami",
-    img: "sgZPf11.png",
+    img: "a/a4/Soya_Sazanami_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["antag"]
@@ -303,7 +311,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tenri Sazanami",
-    img: "sgZPf11.png",
+    img: "c/c1/Tenri_Sazanami_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["antag"]
@@ -311,7 +319,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tamaki Sazanami",
-    img: "sgZPf11.png",
+    img: "e/e2/Tamaki_Sazanami_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
@@ -319,7 +327,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Enji Sazanami",
-    img: "sgZPf11.png",
+    img: "a/a4/Enji_Sazanami_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
@@ -327,7 +335,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyora Sazanami",
-    img: "sgZPf11.png",
+    img: "0/03/Kyora_Sazanami_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["antag"]
@@ -335,7 +343,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mr. Inazuma",
-    img: "sgZPf11.png",
+    img: "8/82/Yuu_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["support"]
@@ -343,7 +351,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mr. Inazuma's Sister",
-    img: "sgZPf11.png",
+    img: "c/c6/Yuu%27s_Sister_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
@@ -351,7 +359,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kamunabi Bidding Guy",
-    img: "sgZPf11.png",
+    img: "8/82/Kamunabi_Bidding_Team_Member_1_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
@@ -359,23 +367,23 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kamunabi Bidding Girl",
-    img: "sgZPf11.png",
+    img: "9/98/Kamunabi_Bidding_Team_Member_2_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
     }
   },
   {
-    name: "Bald Sorcerer",
-    img: "P4JZ2it.png",
+    name: "Rakuzaichi Bald Guy",
+    img: "7/7e/Bald_Tattooed_Man_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["fodder"]
     }
   },
   {
-    name: "Sunglasses Sorcerer",
-    img: "P4JZ2it.png",
+    name: "Sunglasses Guard",
+    img: "6/60/Sunglasses_Guard_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["fodder"]
@@ -383,7 +391,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chandelier Sorcerers",
-    img: "P4JZ2it.png",
+    img: "5/56/Chandelier_Sorcerers_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["fodder"]
@@ -391,7 +399,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yura",
-    img: "sgZPf11.png",
+    img: "2/2c/Yura_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["antag"]
@@ -399,7 +407,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ice Lady",
-    img: "sgZPf11.png",
+    img: "9/94/Girl_With_Icy_Skin_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
@@ -407,7 +415,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sora Sazanami",
-    img: "P4JZ2it.png",
+    img: "f/f7/Sora_Sazanami_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
@@ -415,15 +423,15 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "First Sazanami Patriarch",
-    img: "P4JZ2it.png",
+    img: "6/60/First_Sazanami_Clan_Head_Portrait.png",
     opts: {
       arc: ["rakuzaichi"],
       importance: ["minor"]
     }
   },
   {
-    name: "Beard Kamunabi",
-    img: "sgZPf11.png",
+    name: "Beard Kamunabi Leader",
+    img: "e/e2/Kamunabi_Leader_1_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["minor"]
@@ -431,7 +439,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ichiki",
-    img: "sgZPf11.png",
+    img: "8/82/Ichiki_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["minor"]
@@ -439,7 +447,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Woman Kamunabi Leader",
-    img: "sgZPf11.png",
+    img: "f/ff/Kamunabi_Leader_2_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["minor"]
@@ -447,7 +455,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Izaru",
-    img: "sgZPf11.png",
+    img: "6/68/Izaru_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["minor"]
@@ -455,7 +463,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Giraffe Kamunabi Leader",
-    img: "sgZPf11.png",
+    img: "8/8d/Kamunabi_Leader_3_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["minor"]
@@ -463,7 +471,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sideburns Kamunabi Leader",
-    img: "sgZPf11.png",
+    img: "3/32/Kamunabi_Leader_4_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["minor"]
@@ -471,7 +479,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Eyepatch Kamunabi Leader",
-    img: "sgZPf11.png",
+    img: "f/f5/Kamunabi_Leader_5_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["minor"]
@@ -479,7 +487,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kudo",
-    img: "sgZPf11.png",
+    img: "2/2d/Kudo_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["support"]
@@ -487,7 +495,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyora's Wife",
-    img: "P4JZ2it.png",
+    img: "d/d3/Kyora%27s_Wife_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -495,7 +503,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yoji Uruha",
-    img: "P4JZ2it.png",
+    img: "8/83/Yoji_Uruha_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["support"]
@@ -511,7 +519,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fushimi",
-    img: "P4JZ2it.png",
+    img: "3/32/Fushimi_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -519,7 +527,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Pinkie",
-    img: "P4JZ2it.png",
+    img: "c/c9/Enchanted_Blade_Wielder_1_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -527,7 +535,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Subaru",
-    img: "P4JZ2it.png",
+    img: "2/20/Subaru_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -535,7 +543,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sword Saint",
-    img: "P4JZ2it.png",
+    img: "5/5f/%22Master_Swordsman%22_Portrait.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["antag"]
@@ -543,7 +551,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hiruhiko",
-    img: "sgZPf11.png",
+    img: "a/a2/Hiruhiko_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["antag"]
@@ -551,7 +559,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Derek Hishaku",
-    img: "sgZPf11.png",
+    img: "d/d1/Hishaku_Sorcerer_4_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -559,7 +567,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Seiichi Samura",
-    img: "sgZPf11.png",
+    img: "4/41/Seiichi_Samura_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["antag"]
@@ -567,7 +575,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ryo Fuura",
-    img: "P4JZ2it.png",
+    img: "9/9c/Ryo_Fuura_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -575,7 +583,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sumi",
-    img: "8UX7hKE.png",
+    img: "f/f8/Sumi_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["support"]
@@ -583,7 +591,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Moku",
-    img: "OhaDcnc.png",
+    img: "e/e3/Moku_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["support"]
@@ -591,7 +599,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ro",
-    img: "MgzqjFK.png",
+    img: "8/82/Ro_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["support"]
@@ -599,7 +607,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tae",
-    img: "P4JZ2it.png",
+    img: "9/96/Tae_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -607,7 +615,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kuguri",
-    img: "sgZPf11.png",
+    img: "4/4a/Kuguri_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["antag"]
@@ -615,7 +623,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Toto",
-    img: "sgZPf11.png",
+    img: "e/e5/Toto_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["antag"]
@@ -623,7 +631,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Iori Samura",
-    img: "ohmetZh.png",
+    img: "6/69/Iori_Samura_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["protag"]
@@ -631,7 +639,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ikura",
-    img: "sgZPf11.png",
+    img: "1/1c/Ikura_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["support"]
@@ -639,15 +647,15 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yojiro Sengoku",
-    img: "sgZPf11.png",
+    img: "d/d9/Yojiro_Sengoku_Portrait.png",
     opts: {
       arc: ["SBA"],
-      importance: ["fodder"]
+      importance: ["minor"]
     }
   },
   {
     name: "Itsuo Shirakai",
-    img: "sgZPf11.png",
+    img: "a/a1/Itsuo_Shirakai_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -655,7 +663,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Inori",
-    img: "P4JZ2it.png",
+    img: "8/8b/Inori_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -663,7 +671,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kanryu Yoshida",
-    img: "P4JZ2it.png",
+    img: "2/2a/Kanryu_Yoshida_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -671,7 +679,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Surveillance Sorcerer",
-    img: "P4JZ2it.png",
+    img: "5/53/Surveillance_Sorcerer_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["minor"]
@@ -679,15 +687,15 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kamunabi Commander",
-    img: "P4JZ2it.png",
+    img: "a/a2/Kamunabi_West_Entrance_Commander_Portrait.png",
     opts: {
       arc: ["SBA"],
-      importance: ["minor"]
+      importance: ["fodder"]
     }
   },
   {
     name: "Older Shigyu Brother",
-    img: "P4JZ2it.png",
+    img: "f/f9/Older_Shigyu_Brother_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["fodder"]
@@ -695,7 +703,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Younger Shigyu Brother",
-    img: "P4JZ2it.png",
+    img: "5/52/Younger_Shigyu_Brother_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["fodder"]
@@ -703,7 +711,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ishihara",
-    img: "P4JZ2it.png",
+    img: "3/31/Ishihira_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["fodder"]
@@ -711,7 +719,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kashima",
-    img: "P4JZ2it.png",
+    img: "7/7c/Kashima_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["fodder"]
@@ -719,7 +727,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Knives Sorcerer",
-    img: "P4JZ2it.png",
+    img: "f/f1/Knives_Sorcerer_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["fodder"]
@@ -727,7 +735,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Transformation Sorcerer",
-    img: "P4JZ2it.png",
+    img: "d/de/Transformation_Sorcerer_Portrait.png",
     opts: {
       arc: ["SBA"],
       importance: ["fodder"]
