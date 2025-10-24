@@ -15,10 +15,10 @@ const dataSet = {};
  * 
  * @example '2018-02-20'
 */
-let dataSetVersion = '2025-07-20';
+let dataSetVersion = '2025-10-23';
 
 /**
  * Image root, will be appended to the start of every image URL. (In this case everything will be in imgur)
  */
-const imageRoot = 'https://static.wikia.nocookie.net/kagurabachi/images/';
+const imageRoot = 'https://i.imgur.com/';
 
