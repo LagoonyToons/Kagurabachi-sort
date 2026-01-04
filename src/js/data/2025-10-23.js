@@ -542,8 +542,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Sword Saint",
-    img: "OICofdV.png",
+    name: "Akemura Soga",
+    img: "y7Unuyz.png",
     opts: {
       arc: ["rakuzaichi", "SBA"],
       importance: ["antag"]
@@ -758,7 +758,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Lucas Hishaku",
+    name: "Yukisada",
     img: "MQLGLNP.png",
     opts: {
       arc: ["SBA"],
