@@ -799,7 +799,7 @@ dataSet[dataSetVersion].characterData = [
   },
 {
     name: "Natsuki Misaka",
-    img: "IX1p6e9.png",
+    img: "styLJgw.png",
     opts: {
       arc: ["SBA"],
       importance: ["support"]
