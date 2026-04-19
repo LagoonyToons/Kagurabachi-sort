@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="og:site_name" content="Kagurabachi Character Sorting">
+  <meta name="og:description" content="A simple website for sorting Kagurabachi characters in a formatted list.">
+  <meta name="og:image" content="https://i.imgur.com/IZzJMk6.jpg">
+  <title>Kagurabachi Character Sorting</title>
+
+  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
+  <script src="src/js/data.js"></script>
+
+  <script src="src/js/data/2026-4-18.js"></script>
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="progress">
+        <span class="progressbattle"></span>
+        <div class="progressbar">
+            <div class="progressfill"><span class="progresstext"></span></div>
+        </div>
+    </div>
+
+    <div class="sorter">
+        <img src="src/assets/chihiroL.png" class="left sort image">
+
+        <div class="starting start button">Kagurabachi Character Sorter<br><br>Click to Start!</div>
+        <div class="starting load button">Load <span></span></div>
+
+        <div class="loading button"><div></div><span>Loading...</span></div>
+
+        <div class="sorting tie button">Tie</div>
+        <div class="sorting undo button">Undo</div>
+        <div class="sorting save button">Save Progress</div>
+
+        <div class="finished save button">Generate Result URL</div>
+        <div class="finished getimg button">Generate Image</div>
+        <div class="finished list button">Generate Text List</div>
+
+        <img src="src/assets/sojoR.png" class="right sort image">
+
+        <div class="left sort text"><p></p></div>
+        <div class="right sort text"><p></p></div>
+    </div>
+
+    <div class="options"></div>
+    <div class="image selector">Display Images on Result: </div>
+    <div class="time taken"></div>
+    <div class="results"></div>
+
+    <div class="info">
+        <a href="https://x.com/arrivemedi">Contact</a> | <a href="https://github.com/execfera/charasort/">Source Code</a> | <a href="?IwVmE4CZNAGSBs5YB8QA5zAMzoCwqzCxEmnDGVkkUXVHEON1lW0tPOn1s9suNyTGr3Y0G3QcN4SBQunNaCxC+pPLsuqreNob5MylKOtuk5RoWGlenhM63TInfyNSRS-aKuaDV+7bKjrJ8wbpClhyu1BZ6bnKG8R5m5kHOHly6gariITE2vvyRxpocZtqW8moxpZ7GGbmlmbGilZXe6j75CSGtLnbAhAxAA">Best Taste</a> | <a class="clearsave">Clear Save Data</a>
+        
+        <br><br>
+
+        <p>Sorter for Kagurabachi characters. Pick your sources, and hit the Start button.</p>
+        <p><strong>Certain options have details that you can hover to read.</strong></p>
+        <p>Click on the character you like better from the two, or tie them if you like them equally or don't know them.</p>
+        
+        <br><br>
+
+        <p>Inspired by <a href="https://tohosort.frelia.my/">this site</a>. Kagurabachi by <a href="https://x.com/8rQu0DnYjkr1LUC">Takeru Hokazono</a>. Splash Art: <a href="https://x.com/arrivemedi">arrivemedi</a>. All images are taken from the Kagurabachi manga. Special thanks to Justice for help with image selection.</p>
+        <!--  Link to a local html file called pokesort.html  -->
+        <p><a href="index.html">Kagurabachi Sort</a> - Back to what you came for.</p>
+
+        <br><br>
+<p>January 7th, 2026 - Air fryer.</p>
+<p>January 3rd, 2026 - Updated Akemura Soga and Yukisada.</p>
+<p>October 23rd, 2025 - Created image repository, replaced all character images, added Uran, added Bingo, added Goggles Kamunabi, added Comb Kamunabi, added Chonmage Kamunabi, reorganized character importances.</p>
+<p>August 6th, 2025 - Added Kiri Shirakai, fixed Hishaku image mixups, added Hokuto, added Ibuki Misaka, added Natsuki Misaka.</p>
+	<p>July 20th, 2025 - Updated Misaka's picture, replaced Jane Hishaku's picture, added Bald Hishaku and Lucas Hishaku, added "antagonist" tag to all Hishaku members.</p>
+	<p>June 15th, 2025 - Bachisort released for public testing.</p>
+        <p>June 6th, 2025 - Created Bachi Sort.</p>
+    </div>
+</div>
+</body>
+
+</html>

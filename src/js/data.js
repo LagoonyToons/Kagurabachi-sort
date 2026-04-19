@@ -15,10 +15,11 @@ const dataSet = {};
  * 
  * @example '2018-02-20'
 */
-let dataSetVersion = '2025-10-23';
+let dataSetVersion = '2026-04-18';
 
 /**
  * Image root, will be appended to the start of every image URL. (In this case everything will be in imgur)
  */
-const imageRoot = 'https://i.imgur.com/';
+// const imageRoot = 'https://i.imgur.com/';
+const imageRoot = 'src/assets/'; 
 
