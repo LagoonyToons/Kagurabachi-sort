@@ -21,5 +21,5 @@ let dataSetVersion = '2026-04-18';
  * Image root, will be appended to the start of every image URL. (In this case everything will be in imgur)
  */
 // const imageRoot = 'https://i.imgur.com/';
-const imageRoot = 'src/assets/'; 
+const imageRoot = 'https://lagoonytoons.github.io/Kagurabachi-sort/src/assets/'; 
 
