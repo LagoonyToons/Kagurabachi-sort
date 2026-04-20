@@ -1540,104 +1540,104 @@ dataSet[dataSetVersion].characterData = [
     name: "Dachsbun",
     img: "pokemon/DACHSBUN.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen9"],
+        TYPE: ["Fairy"],
     }
   },
 {
     name: "Darkrai",
     img: "pokemon/DARKRAI.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Dark"],
     }
   },
 {
     name: "Darmanitan",
     img: "pokemon/DARMANITAN.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Fire", "Psychic"],
     }
   },
 {
     name: "Dartrix",
     img: "pokemon/DARTRIX.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen7"],
+        TYPE: ["Grass", "Flying"],
     }
   },
 {
     name: "Darumaka",
     img: "pokemon/DARUMAKA.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Fire"],
     }
   },
 {
     name: "Decidueye",
     img: "pokemon/DECIDUEYE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen7"],
+        TYPE: ["Grass", "Ghost"],
     }
   },
 {
     name: "Dedenne",
     img: "pokemon/DEDENNE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen7"],
+        TYPE: ["Electric", "Fairy"],
     }
   },
 {
     name: "Deerling",
     img: "pokemon/DEERLING.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Grass"],
     }
   },
 {
     name: "Deino",
     img: "pokemon/DEINO.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Dark", "Dragon"],
     }
   },
 {
     name: "Delcatty",
     img: "pokemon/DELCATTY.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen3"],
+        TYPE: ["Normal"],
     }
   },
 {
     name: "Delibird",
     img: "pokemon/DELIBIRD.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen2"],
+        TYPE: ["Ice", "Flying"],
     }
   },
 {
     name: "Delphox",
     img: "pokemon/DELPHOX.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen6"],
+        TYPE: ["Fire", "Psychic"],
     }
   },
 {
     name: "Deoxys",
     img: "pokemon/DEOXYS.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen3"],
+        TYPE: ["Psychic"],
     }
   },
 {
@@ -1645,55 +1645,55 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DEWGONG.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Water", "Ice"],
     }
   },
 {
     name: "Dewott",
     img: "pokemon/DEWOTT.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Water"],
     }
   },
 {
     name: "Dewpider",
     img: "pokemon/DEWPIDER.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen7"],
+        TYPE: ["Water", "Bug"],
     }
   },
 {
     name: "Dhelmise",
     img: "pokemon/DHELMISE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen7"],
+        TYPE: ["Grass", "Ghost"],
     }
   },
 {
     name: "Dialga",
     img: "pokemon/DIALGA.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Dragon", "Steel"],
     }
   },
 {
     name: "Diancie",
     img: "pokemon/DIANCIE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen6"],
+        TYPE: ["Rock", "Fairy"],
     }
   },
 {
     name: "Diggersby",
     img: "pokemon/DIGGERSBY.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen6"],
+        TYPE: ["Ground", "Normal"],
     }
   },
 {
@@ -1701,15 +1701,15 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DIGLETT.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Ground"],
     }
   },
 {
     name: "Dipplin",
     img: "pokemon/DIPPLIN.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen9"],
+        TYPE: ["Grass", "Dragon"],
     }
   },
 {
@@ -1717,7 +1717,7 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DITTO.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Normal"],
     }
   },
 {
@@ -1725,7 +1725,7 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DODRIO.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Flying", "Normal"],
     }
   },
 {
@@ -1733,79 +1733,79 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DODUO.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Flying", "Normal"],
     }
   },
 {
     name: "Dolliv",
     img: "pokemon/DOLLIV.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen9"],
+        TYPE: ["Grass", "Normal"],
     }
   },
 {
     name: "Dondozo",
     img: "pokemon/DONDOZO.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen9"],
+        TYPE: ["Water"],
     }
   },
 {
     name: "Donphan",
     img: "pokemon/DONPHAN.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen2"],
+        TYPE: ["Ground"],
     }
   },
 {
     name: "Dottler",
     img: "pokemon/DOTTLER.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Bug", "Psychic"],
     }
   },
 {
     name: "Doublade",
     img: "pokemon/DOUBLADE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen6"],
+        TYPE: ["Ghost", "Steel"],
     }
   },
 {
     name: "Dracovish",
     img: "pokemon/DRACOVISH.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Water", "Dragon"],
     }
   },
 {
     name: "Dracozolt",
     img: "pokemon/DRACOZOLT.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Electric", "Dragon"],
     }
   },
 {
     name: "Dragalge",
     img: "pokemon/DRAGALGE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen6"],
+        TYPE: ["Water", "Poison"],
     }
   },
 {
     name: "Dragapult",
     img: "pokemon/DRAGAPULT.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Dragon", "Ghost"],
     }
   },
 {
@@ -1813,7 +1813,7 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DRAGONAIR.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Dragon"],
     }
   },
 {
@@ -1821,31 +1821,31 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DRAGONITE.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Dragon", "Flying"],
     }
   },
 {
     name: "Drakloak",
     img: "pokemon/DRAKLOAK.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Dragon", "Ghost"],
     }
   },
 {
     name: "Drampa",
     img: "pokemon/DRAMPA.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen6"],
+        TYPE: ["Normal", "Dragon"],
     }
   },
 {
     name: "Drapion",
     img: "pokemon/DRAPION.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Poison", "Dark"],
     }
   },
 {
@@ -1853,55 +1853,55 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DRATINI.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Dragon"],
     }
   },
 {
     name: "Drednaw",
     img: "pokemon/DREDNAW.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Water", "Rock"],
     }
   },
 {
     name: "Dreepy",
     img: "pokemon/DREEPY.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Dragon", "Ghost"],
     }
   },
 {
     name: "Drifblim",
     img: "pokemon/DRIFBLIM.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Ghost", "Flying"],
     }
   },
 {
     name: "Drifloon",
     img: "pokemon/DRIFLOON.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Ghost", "Flying"],
     }
   },
 {
     name: "Drilbur",
     img: "pokemon/DRILBUR.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Ground"],
     }
   },
 {
     name: "Drizzile",
     img: "pokemon/DRIZZILE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Water"],
     }
   },
 {
@@ -1909,39 +1909,39 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DROWZEE.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Psychic"],
     }
   },
 {
     name: "Druddigon",
     img: "pokemon/DRUDDIGON.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Dragon"],
     }
   },
 {
     name: "Dubwool",
     img: "pokemon/DUBWOOL.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Normal"],
     }
   },
 {
     name: "Ducklett",
     img: "pokemon/DUCKLETT.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Water", "Flying"],
     }
   },
 {
     name: "Dudunsparce",
     img: "pokemon/DUDUNSPARCE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen9"],
+        TYPE: ["Normal"],
     }
   },
 {
@@ -1949,95 +1949,95 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/DUGTRIO.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Ground"],
     }
   },
 {
     name: "Dunsparce",
     img: "pokemon/DUNSPARCE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen2"],
+        TYPE: ["Normal"],
     }
   },
 {
     name: "Duosion",
     img: "pokemon/DUOSION.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Psychic"],
     }
   },
 {
     name: "Duraludon",
     img: "pokemon/DURALUDON.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Steel", "Dragon"],
     }
   },
 {
     name: "Durant",
     img: "pokemon/DURANT.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Bug", "Steel"],
     }
   },
 {
     name: "Dusclops",
     img: "pokemon/DUSCLOPS.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen3"],
+        TYPE: ["Ghost"],
     }
   },
 {
     name: "Dusknoir",
     img: "pokemon/DUSKNOIR.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Ghost"],
     }
   },
 {
     name: "Duskull",
     img: "pokemon/DUSKULL.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen3"],
+        TYPE: ["Ghost"],
     }
   },
 {
     name: "Dustox",
     img: "pokemon/DUSTOX.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen3"],
+        TYPE: ["Bug", "Poison"],
     }
   },
 {
     name: "Dwebble",
     img: "pokemon/DWEBBLE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Rock", "Bug"],
     }
   },
 {
     name: "Eelektrik",
     img: "pokemon/EELEKTRIK.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Electric"],
     }
   },
 {
     name: "Eelektross",
     img: "pokemon/EELEKTROSS.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Electric"],
     }
   },
 {
@@ -2045,15 +2045,15 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/EEVEE.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Normal"],
     }
   },
 {
     name: "Eiscue",
     img: "pokemon/EISCUE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Ice"],
     }
   },
 {
@@ -2061,15 +2061,15 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/EKANS.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Poison"],
     }
   },
 {
     name: "Eldegoss",
     img: "pokemon/ELDEGOSS.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Grass"],
     }
   },
 {
@@ -2077,23 +2077,23 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/ELECTABUZZ.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Electric"],
     }
   },
 {
     name: "Electivire",
     img: "pokemon/ELECTIVIRE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Electric"],
     }
   },
 {
     name: "Electrike",
     img: "pokemon/ELECTRIKE.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen3"],
+        TYPE: ["Electric"],
     }
   },
 {
@@ -2101,103 +2101,103 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/ELECTRODE.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Electric"],
     }
   },
 {
     name: "Elekid",
     img: "pokemon/ELEKID.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen2"],
+        TYPE: ["Electric"],
     }
   },
 {
     name: "Elgyem",
     img: "pokemon/ELGYEM.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Psychic"],
     }
   },
 {
     name: "Emboar",
     img: "pokemon/EMBOAR.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Fire", "Fighting"],
     }
   },
 {
     name: "Emolga",
     img: "pokemon/EMOLGA.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Electric", "Flying"],
     }
   },
 {
     name: "Empoleon",
     img: "pokemon/EMPOLEON.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen4"],
+        TYPE: ["Water", "Steel"],
     }
   },
 {
     name: "Entei",
     img: "pokemon/ENTEI.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen2"],
+        TYPE: ["Fire"],
     }
   },
 {
     name: "Escavalier",
     img: "pokemon/ESCAVALIER.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Bug", "Steel"],
     }
   },
 {
     name: "Espathra",
     img: "pokemon/ESPATHRA.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen9"],
+        TYPE: ["Psychic"],
     }
   },
 {
     name: "Espeon",
     img: "pokemon/ESPEON.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen2"],
+        TYPE: ["Psychic"],
     }
   },
 {
     name: "Espurr",
     img: "pokemon/ESPURR.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen6"],
+        TYPE: ["Psychic"],
     }
   },
 {
     name: "Eternatus",
     img: "pokemon/ETERNATUS.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Poison", "Dragon"],
     }
   },
 {
     name: "Excadrill",
     img: "pokemon/EXCADRILL.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen5"],
+        TYPE: ["Ground", "Steel"],
     }
   },
 {
@@ -2205,7 +2205,7 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/EXEGGCUTE.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Grass", "Psychic"],
     }
   },
 {
@@ -2213,15 +2213,15 @@ dataSet[dataSetVersion].characterData = [
     img: "pokemon/EXEGGUTOR.png",
     opts: {
       GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+        TYPE: ["Grass", "Psychic"],
     }
   },
 {
     name: "Exploud",
     img: "pokemon/EXPLOUD.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen3"],
+        TYPE: ["Normal"],
     }
   },
 {
