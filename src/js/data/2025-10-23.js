@@ -1,4 +1,4 @@
-dataSetVersion = "2025-06-02"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2025-10-23"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -10,7 +10,8 @@ dataSet[dataSetVersion].options = [
     sub: [
       { name: "Vs. Sojo", key: "vssojo", tooltip: "Relevant characters from chapters 1-18"},
       { name: "Rakuzaichi", key: "rakuzaichi", tooltip: "Relevant characters from chapters 19-44"},
-      { name: "Sword Bearer Assassination", key: "SBA", tooltip: "Relevant characters from chapters 45 and onwards"}
+      { name: "Sword Bearer Assassination", key: "SBA", tooltip: "Relevant characters from chapters 45 and onwards"},
+	{ name: "Seitei War", key: "seitei", tooltip: "Relevant characters from chapters 113 and onwards"},
         ]
   },
   {
@@ -24,6 +25,7 @@ dataSet[dataSetVersion].options = [
 	{ name: "Supporting Characters", key: "support" },
 	{ name: "Minor Characters", key: "minor"},
 	{ name: "Fodder", key: "fodder", checked: false},
+	{ name: "Tizi", key: "tizi", checked: false},
     ]
   }
 ];
@@ -41,7 +43,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kunishige Rokuhira",
     img: "qO5mmAz.png",
     opts: {
-      arc: ["vssojo", "rakuzaichi", "SBA"],
+      arc: ["vssojo", "rakuzaichi", "SBA", "seitei"],
       importance: ["protag"]
     }
   },
@@ -49,7 +51,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Togo Shiba",
     img: "7viWiad.png",
     opts: {
-      arc: ["vssojo", "rakuzaichi", "SBA"],
+      arc: ["vssojo", "rakuzaichi", "SBA", "seitei"],
       importance: ["protag"]
     }
   },
@@ -322,7 +324,7 @@ dataSet[dataSetVersion].characterData = [
     img: "ZCo5Jbf.png",
     opts: {
       arc: ["rakuzaichi"],
-      importance: ["minor"]
+      importance: ["minor", "antag"]
     }
   },
   {
@@ -330,7 +332,7 @@ dataSet[dataSetVersion].characterData = [
     img: "ZSRvjpW.png",
     opts: {
       arc: ["rakuzaichi"],
-      importance: ["minor"]
+      importance: ["minor", "antag"]
     }
   },
   {
@@ -534,18 +536,18 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Subaru",
-    img: "YxMVVfi.png",
+    name: "Subaru Urita",
+    img: "2kQdzEy.png",
     opts: {
-      arc: ["SBA"],
-      importance: ["minor"]
+      arc: ["SBA", "seitei"],
+      importance: ["support"]
     }
   },
   {
     name: "Akemura Soga",
     img: "y7Unuyz.png",
     opts: {
-      arc: ["rakuzaichi", "SBA"],
+      arc: ["rakuzaichi", "SBA", "seitei"],
       importance: ["antag"]
     }
   },
@@ -738,7 +740,7 @@ dataSet[dataSetVersion].characterData = [
     img: "CjsqwiQ.png",
     opts: {
       arc: ["SBA"],
-      importance: ["fodder"]
+      importance: ["fodder", "tizi"]
     }
   },
   {
@@ -790,7 +792,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 {
-    name: "Chonmage Kamunagi",
+    name: "Chonmage Kamunabi",
     img: "aOG3NkY.png",
     opts: {
       arc: ["SBA"],
@@ -803,6 +805,110 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       arc: ["SBA"],
       importance: ["support"]
+    }
+  },
+{
+    name: "Stitched Head Sorcerer",
+    img: "fR8Zn8E.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["fodder"]
+    }
+  },
+{
+    name: "Shuuji Mashiro",
+    img: "URwgv6t.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["support"]
+    }
+  },
+{
+    name: "Hasumi",
+    img: "Chezure.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["minor"]
+    }
+  },
+{
+    name: "Joji",
+    img: "7gRKPTg.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["minor"]
+    }
+  },
+{
+    name: "Subaru's Disciple",
+    img: "hqlQuCS.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["minor"]
+    }
+  },
+{
+    name: "Chiaki Soga",
+    img: "15zQPsG.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["support"]
+    }
+  },
+{
+    name: "Mama Soga",
+    img: "bJDPy4E.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["minor"]
+    }
+  },
+{
+    name: "Ariu Mikaboshi",
+    img: "Sck9MM1.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["antag"]
+    }
+  },
+{
+    name: "Ariu's Father",
+    img: "rQX89jv.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["antag"]
+    }
+  },
+{
+    name: "Mikaboshi Guard",
+    img: "iRJUcBv.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["fodder"]
+    }
+  },
+{
+    name: "Hiroto Soga",
+    img: "X0HRPLB.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["support"]
+    }
+  },
+{
+    name: "Yoshinojo Soga",
+    img: "ttHTzIR.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["support"]
+    }
+  },
+{
+    name: "Ukizane Soga",
+    img: "3xN57mQ.png",
+    opts: {
+      arc: ["seitei"],
+      importance: ["minor"]
     }
   }
 ];
