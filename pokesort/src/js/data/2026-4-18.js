@@ -220,16 +220,16 @@ dataSet[dataSetVersion].characterData = [
     name: "Araquanid",
     img: "pokemon/ARAQUANID.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen7"],
+        TYPE: ["Bug", "Water"],
     }
   },
 {
     name: "Arbok",
     img: "pokemon/ARBOK.png",
     opts: {
-      GENERATION: ["gen7"],
-        TYPE: ["Bug", "Water"],
+      GENERATION: ["gen1"],
+        TYPE: ["Poison"],
     }
   },
 {
@@ -292,8 +292,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Arctovish",
     img: "pokemon/ARCTOVISH.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen8"],
+        TYPE: ["Water", "Ice"],
     }
   },
 {
@@ -572,8 +572,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Bewear",
     img: "pokemon/BEWEAR.png",
     opts: {
-      GENERATION: ["gen1"],
-        TYPE: ["Normal", "Normal"],
+      GENERATION: ["gen7"],
+        TYPE: ["Normal"],
     }
   },
 {
@@ -5828,7 +5828,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Rhyperior",
     img: "pokemon/RHYPERIOR.png",
     opts: {
-      GENERATION: ["gen1"],
+      GENERATION: ["gen4"],
         TYPE: ["Ground", "Rock"],
     }
   },
