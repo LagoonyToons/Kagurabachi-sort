@@ -9512,7 +9512,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mega Sceptile",
-    img: "pokemon/SCETIPLE_1.png",
+    img: "pokemon/SCEPTILE_1.png",
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Dragon"],
@@ -9782,7 +9782,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mega Froslass",
-    img: "pokemon/FROSASS_1.png",
+    img: "pokemon/FROSLASS_1.png",
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ice", "Ghost"],
@@ -9899,7 +9899,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mega Greninja",
-    img: "pokemon/GRENINJA_1.png",
+    img: "pokemon/GRENINJA_3.png",
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water", "Dark"],
@@ -9943,8 +9943,8 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Mega Barbacle",
-    img: "pokemon/BARBACLE_1.png",
+    name: "Mega Barbaracle",
+    img: "pokemon/BARBARACLE_1.png",
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fighting", "Rock"],
