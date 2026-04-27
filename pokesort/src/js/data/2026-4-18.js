@@ -9332,7 +9332,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mega Victreebel",
-    img: "pokemon/VICTREEBEL.png",
+    img: "pokemon/VICTREEBEL_1.png",
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
@@ -9439,7 +9439,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Mega FERALIGATR",
+    name: "Mega Feraligatr",
     img: "pokemon/FERALIGATR_1.png",
     opts: {
       GENERATION: ["gen2"],
