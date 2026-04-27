@@ -44,6 +44,17 @@ dataSet[dataSetVersion].options = [
     { name: "Steel", key: "Steel"},
     { name: "Fairy", key: "Fairy"}, 
     ]
+  },
+  {
+    name: "Filter by Form",
+    key: "FORM",
+    tooltip: "",
+    checked: true,
+    sub: [
+	{ name: "Mega Evolution (and Primal)", key: "Mega"},
+  { name: "Base Forms", key: "Base"},
+  { name: "Final Evolution (Not implemented yet)", key: "Final"},
+    ]
   }
 ];
 
@@ -54,6 +65,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Bird", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -62,6 +74,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ice", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -70,6 +83,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -78,6 +92,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -86,6 +101,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -94,6 +110,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Steel", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -102,6 +119,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -110,6 +128,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Steel", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -118,6 +137,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -126,6 +146,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -134,6 +155,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -142,6 +164,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -150,6 +173,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dragon", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -158,6 +182,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ice", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -166,6 +191,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -174,6 +200,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -182,6 +209,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -190,6 +218,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fighting", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -198,6 +227,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -206,6 +236,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -214,6 +245,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -222,6 +254,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -230,6 +263,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -238,6 +272,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -246,6 +281,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -254,6 +290,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -262,6 +299,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Steel", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -270,6 +308,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -278,6 +317,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -286,6 +326,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dragon", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -294,6 +335,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -302,6 +344,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -310,6 +353,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -318,6 +362,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -326,6 +371,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -334,6 +380,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -342,6 +389,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Steel", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -350,6 +398,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -358,6 +407,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ice", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -366,6 +416,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -374,6 +425,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Rock", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -382,6 +434,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -390,6 +443,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -398,6 +452,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -406,6 +461,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -414,6 +470,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -422,6 +479,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -430,6 +488,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ground", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -438,6 +497,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -446,6 +506,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -454,6 +515,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -462,6 +524,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -470,6 +533,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -478,6 +542,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -486,6 +551,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dragon", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -494,6 +560,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -502,6 +569,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -510,6 +578,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -518,6 +587,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Bug", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -526,6 +596,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -534,6 +605,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Steel", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -542,6 +614,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -550,6 +623,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -558,6 +632,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -566,6 +641,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -574,6 +650,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -582,6 +659,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -590,6 +668,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -598,6 +677,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Rock", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -606,6 +686,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Steel", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -614,6 +695,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fire", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -622,6 +704,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -630,6 +713,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Fire", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -638,6 +722,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -646,6 +731,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -654,6 +740,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -662,6 +749,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -670,6 +758,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -678,6 +767,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Flying", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -686,6 +776,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -694,6 +785,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -702,6 +794,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -710,6 +803,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -718,6 +812,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -726,6 +821,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -734,6 +830,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -742,6 +839,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -750,6 +848,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -758,6 +857,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Steel", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -766,6 +866,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Steel", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -774,6 +875,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -782,6 +884,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -790,6 +893,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -798,6 +902,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -806,6 +911,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -814,6 +920,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -822,6 +929,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -830,6 +938,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -838,6 +947,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -846,6 +956,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -854,6 +965,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -862,6 +974,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -870,6 +983,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Psychic", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -878,6 +992,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Fire", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -886,6 +1001,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -894,6 +1010,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Rock", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -902,6 +1019,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Rock", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -910,6 +1028,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -918,6 +1037,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -926,6 +1046,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -934,6 +1055,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -942,6 +1064,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal", "Fire", "Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -950,6 +1073,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -958,6 +1082,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -966,6 +1091,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Steel", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -974,6 +1100,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fire", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -982,6 +1109,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -990,6 +1118,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -998,6 +1127,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1006,6 +1136,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ghost", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1014,6 +1145,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1022,6 +1154,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1030,6 +1163,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1038,6 +1172,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1046,6 +1181,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1054,6 +1190,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1062,6 +1199,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1070,6 +1208,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1078,6 +1217,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1086,6 +1226,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Grass", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1094,6 +1235,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1102,6 +1244,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1110,6 +1253,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dark", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1118,6 +1262,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1126,6 +1271,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1134,6 +1280,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1142,6 +1289,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1150,6 +1298,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1158,6 +1307,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dark", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1166,6 +1316,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1174,6 +1325,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1182,6 +1334,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1190,6 +1343,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1198,6 +1352,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1206,6 +1361,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1214,6 +1370,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1222,6 +1379,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1230,6 +1388,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1238,6 +1397,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1246,6 +1406,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Poison", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1254,6 +1415,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1262,6 +1424,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Normal", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1270,6 +1433,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Steel", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1278,6 +1442,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1286,6 +1451,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1294,6 +1460,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Fire", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1302,6 +1469,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1310,6 +1478,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1318,6 +1487,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1326,6 +1496,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1334,6 +1505,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1342,6 +1514,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Flying", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1350,6 +1523,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1358,6 +1532,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1366,6 +1541,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1374,6 +1550,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1382,6 +1559,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fighting", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1390,6 +1568,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1398,6 +1577,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1406,6 +1586,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1414,6 +1595,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1422,6 +1604,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1430,6 +1613,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1438,6 +1622,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Poison", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1446,6 +1631,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Poison", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1454,6 +1640,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1462,6 +1649,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1470,6 +1658,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1478,6 +1667,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1486,6 +1676,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1494,6 +1685,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1502,6 +1694,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1510,6 +1703,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1518,6 +1712,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1526,6 +1721,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dragon", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1534,6 +1730,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1542,6 +1739,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1550,6 +1748,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1558,6 +1757,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1566,6 +1766,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1574,6 +1775,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1582,6 +1784,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1590,6 +1793,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Electric", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1598,6 +1802,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1606,6 +1811,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1614,6 +1820,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1622,6 +1829,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ice", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1630,6 +1838,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fire", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1638,6 +1847,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1646,6 +1856,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1654,6 +1865,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1662,6 +1874,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1670,6 +1883,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1678,6 +1892,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Dragon", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1686,6 +1901,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Rock", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1694,6 +1910,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ground", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1702,6 +1919,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1710,6 +1928,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1718,6 +1937,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1726,6 +1946,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1734,6 +1955,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1742,6 +1964,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1750,6 +1973,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1758,6 +1982,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1766,6 +1991,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Bug", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1774,6 +2000,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ghost", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1782,6 +2009,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1790,6 +2018,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1798,6 +2027,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1806,6 +2036,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dragon", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1814,6 +2045,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1822,6 +2054,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Dragon", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1830,6 +2063,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dragon", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1838,6 +2072,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Normal", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1846,6 +2081,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Poison", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1854,6 +2090,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1862,6 +2099,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1870,6 +2108,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dragon", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1878,6 +2117,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ghost", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1886,6 +2126,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ghost", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1894,6 +2135,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1902,6 +2144,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1910,6 +2153,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1918,6 +2162,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1926,6 +2171,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1934,6 +2180,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1942,6 +2189,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1950,6 +2198,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1958,6 +2207,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1966,6 +2216,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1974,6 +2225,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Steel", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1982,6 +2234,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1990,6 +2243,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -1998,6 +2252,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2006,6 +2261,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2014,6 +2270,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2022,6 +2279,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2030,6 +2288,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2038,6 +2297,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2046,6 +2306,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2054,6 +2315,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2062,6 +2324,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2070,6 +2333,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2078,6 +2342,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2086,6 +2351,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2094,6 +2360,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2102,6 +2369,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2110,6 +2378,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2118,6 +2387,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2126,6 +2396,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2134,6 +2405,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2142,6 +2414,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2150,6 +2423,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2158,6 +2432,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2166,6 +2441,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2174,6 +2450,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2182,6 +2459,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2190,6 +2468,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Poison", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2198,6 +2477,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ground", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2206,6 +2486,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2214,6 +2495,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2222,6 +2504,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2230,6 +2513,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2238,6 +2522,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2246,6 +2531,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2254,6 +2540,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2262,6 +2549,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2270,6 +2558,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2278,6 +2567,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2286,6 +2576,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2294,6 +2585,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2302,6 +2594,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Poison", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2310,6 +2603,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2318,6 +2612,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2326,6 +2621,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2334,6 +2630,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2342,6 +2639,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2350,6 +2648,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Flying", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2358,6 +2657,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2366,6 +2666,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2374,6 +2675,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fire", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2382,6 +2684,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2390,6 +2693,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2398,6 +2702,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2406,6 +2711,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2414,6 +2720,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2422,6 +2729,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2430,6 +2738,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ghost", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2438,6 +2747,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ground", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2446,6 +2756,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2454,6 +2765,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2462,6 +2774,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2470,6 +2783,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2478,6 +2792,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dragon", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2486,6 +2801,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2494,6 +2810,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2502,6 +2819,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2510,6 +2828,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ice", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2518,6 +2837,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ice", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2526,6 +2846,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2534,6 +2855,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2542,6 +2864,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2550,6 +2873,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Dragon", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2558,6 +2882,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Psychic", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2566,6 +2891,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2574,6 +2900,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2582,6 +2909,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Dragon", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2590,6 +2918,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2598,6 +2927,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2606,6 +2936,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ghost", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2614,6 +2945,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2622,6 +2954,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Bug", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2630,6 +2963,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ghost", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2638,6 +2972,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2646,6 +2981,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Steel", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2654,6 +2990,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Dragon", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2662,6 +2999,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2670,6 +3008,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2678,6 +3017,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Psychic", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2686,6 +3026,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ghost", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2694,6 +3035,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2702,6 +3044,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2710,6 +3053,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2718,6 +3062,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2726,6 +3071,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ground", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2734,6 +3080,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2742,6 +3089,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2750,6 +3098,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ground", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2758,6 +3107,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2766,6 +3116,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2774,6 +3125,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Flying", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2782,6 +3134,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2790,6 +3143,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2798,6 +3152,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2806,6 +3161,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ground", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2814,6 +3170,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2822,6 +3179,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ghost", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2830,6 +3188,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2838,6 +3197,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2846,6 +3206,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2854,6 +3215,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2862,6 +3224,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2870,6 +3233,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2878,6 +3242,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2886,6 +3251,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2894,6 +3260,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ghost", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2902,6 +3269,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Poison", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2910,6 +3278,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2918,6 +3287,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2926,6 +3296,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2934,6 +3305,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ground", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2942,6 +3314,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2950,6 +3323,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2958,6 +3332,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2966,6 +3341,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2974,6 +3350,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dark", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2982,6 +3359,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2990,6 +3368,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -2998,6 +3377,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3006,6 +3386,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3014,6 +3395,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3022,6 +3404,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3030,6 +3413,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3038,6 +3422,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3046,6 +3431,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3054,6 +3440,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3062,6 +3449,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Dark", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3070,6 +3458,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3078,6 +3467,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Dragon", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3086,6 +3476,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3094,6 +3485,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3102,6 +3494,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3110,6 +3503,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Psychic", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3118,6 +3512,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3126,6 +3521,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ghost", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3134,6 +3530,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fighting", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3142,6 +3539,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3150,6 +3548,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3158,6 +3557,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3166,6 +3566,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Electric", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3174,6 +3575,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Electric", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3182,6 +3584,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3190,6 +3593,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3198,6 +3602,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3206,6 +3611,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3214,6 +3620,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3222,6 +3629,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3230,6 +3638,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3238,6 +3647,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Dark", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3246,6 +3656,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Steel", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3254,6 +3665,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fire", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3262,6 +3674,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Psychic", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3270,6 +3683,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3278,6 +3692,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3286,6 +3701,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3294,6 +3710,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Dark", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3302,6 +3719,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Dark", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3310,6 +3728,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3318,6 +3737,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3326,6 +3746,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3334,6 +3755,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3342,6 +3764,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3350,6 +3773,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3358,6 +3782,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3366,6 +3791,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dark", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3374,6 +3800,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fire", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3382,6 +3809,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Psychic", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3390,6 +3818,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Fire", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3398,6 +3827,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Dark", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3406,6 +3836,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3414,6 +3845,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3422,6 +3854,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ice", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3430,6 +3863,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Steel", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3438,6 +3872,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fighting", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3446,6 +3881,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dark", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3454,6 +3890,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3462,6 +3899,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3470,6 +3908,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3478,6 +3917,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ground", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3486,6 +3926,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fairy", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3494,6 +3935,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3502,6 +3944,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3510,6 +3953,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3518,6 +3962,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3526,6 +3971,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3534,6 +3980,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3542,6 +3989,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3550,6 +3998,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3558,6 +4007,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ice", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3566,6 +4016,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3574,6 +4025,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3582,6 +4034,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3590,6 +4043,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3598,6 +4052,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3606,6 +4061,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3614,6 +4070,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3622,6 +4079,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3630,6 +4088,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3638,6 +4097,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3646,6 +4106,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dark", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3654,6 +4115,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3662,6 +4124,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3670,6 +4133,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3678,6 +4142,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3686,6 +4151,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3694,6 +4160,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Steel", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3702,6 +4169,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3710,6 +4178,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3718,6 +4187,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3726,6 +4196,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3734,6 +4205,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Dragon", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3742,6 +4214,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fighting", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3750,6 +4223,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3758,6 +4232,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3766,6 +4241,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3774,6 +4250,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3782,6 +4259,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3790,6 +4268,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3798,6 +4277,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3806,6 +4286,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ice", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3814,6 +4295,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3822,6 +4304,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3830,6 +4313,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ground", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3838,6 +4322,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Electric", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3846,6 +4331,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3854,6 +4340,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3862,6 +4349,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ground", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3870,6 +4358,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3878,6 +4367,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3886,6 +4376,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3894,6 +4385,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3902,6 +4394,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3910,6 +4403,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3918,6 +4412,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3926,6 +4421,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3934,6 +4430,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3942,6 +4439,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3950,6 +4448,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3958,6 +4457,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3966,6 +4466,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3974,6 +4475,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3982,6 +4484,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fire", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3990,6 +4493,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -3998,6 +4502,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4006,6 +4511,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Bug", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4014,6 +4520,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4022,6 +4529,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4030,6 +4538,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4038,6 +4547,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4046,6 +4556,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Fighting", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4054,6 +4565,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4062,6 +4574,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Flying", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4070,6 +4583,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4078,6 +4592,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Psychic", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4086,6 +4601,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4094,6 +4610,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4102,6 +4619,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4110,6 +4628,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4118,6 +4637,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4126,6 +4646,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4134,6 +4655,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4142,6 +4664,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4150,6 +4673,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4158,6 +4682,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4166,6 +4691,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4174,6 +4700,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Rock", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4182,6 +4709,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Steel", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4190,6 +4718,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4198,6 +4727,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4206,6 +4736,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4214,6 +4745,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4222,6 +4754,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4230,6 +4763,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Electric", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4238,6 +4772,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4246,6 +4781,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Psychic", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4254,6 +4790,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ice", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4262,6 +4799,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4270,6 +4808,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4278,6 +4817,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4286,6 +4826,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4294,6 +4835,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4302,6 +4844,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4310,6 +4853,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4318,6 +4862,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4326,6 +4871,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4334,6 +4880,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4342,6 +4889,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4350,6 +4898,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fighting", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4358,6 +4907,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4366,6 +4916,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4374,6 +4925,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4382,6 +4934,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4390,6 +4943,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Steel", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4398,6 +4952,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4406,6 +4961,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4414,6 +4970,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4422,6 +4979,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4430,6 +4988,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic", "Normal", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4438,6 +4997,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4446,6 +5006,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4454,6 +5015,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4462,6 +5024,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4470,6 +5033,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4478,6 +5042,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4486,6 +5051,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4494,6 +5060,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4502,6 +5069,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4510,6 +5078,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4518,6 +5087,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4526,6 +5096,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4534,6 +5105,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4542,6 +5114,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4550,6 +5123,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4558,6 +5132,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4566,6 +5141,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Psychic", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4574,6 +5150,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Ghost", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4582,6 +5159,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4590,6 +5168,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Rock", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4598,6 +5177,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4606,6 +5186,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4614,6 +5195,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4622,6 +5204,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4630,6 +5213,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4638,6 +5222,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Fire", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4646,6 +5231,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4654,6 +5240,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dark", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4662,6 +5249,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4670,6 +5258,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4678,6 +5267,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Psychic", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4686,6 +5276,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ice", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4694,6 +5285,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4702,6 +5294,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4710,6 +5303,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4718,6 +5312,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4726,6 +5321,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4734,6 +5330,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Poison", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4742,6 +5339,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4750,6 +5348,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Dark", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4758,6 +5357,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4766,6 +5366,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4774,6 +5375,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4782,6 +5384,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Poison", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4790,6 +5393,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Psychic", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4798,6 +5402,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Psychic", "Steel", "Ghost", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4806,6 +5411,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4814,6 +5420,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4822,6 +5429,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4830,6 +5438,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4838,6 +5447,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4846,6 +5456,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4854,6 +5465,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4862,6 +5474,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Rock", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4870,6 +5483,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ground", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4878,6 +5492,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4886,6 +5501,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4894,6 +5510,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4902,6 +5519,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Flying", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4910,6 +5528,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Flying", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4918,6 +5537,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4926,6 +5546,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ground", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4934,6 +5555,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dark", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4942,6 +5564,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4950,6 +5573,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dark", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4958,6 +5582,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4966,6 +5591,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4974,6 +5600,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Water", "Fire", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4982,6 +5609,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4990,6 +5618,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Poison", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -4998,6 +5627,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5006,6 +5636,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5014,6 +5645,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5022,6 +5654,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5030,6 +5663,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Bug", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5038,6 +5672,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fire", "Flying", "Electric", "Psychic", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5046,6 +5681,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5054,6 +5690,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5062,6 +5699,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5070,6 +5708,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5078,6 +5717,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5086,6 +5726,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Ghost", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5094,6 +5735,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5102,6 +5744,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5110,6 +5753,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fighting", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5118,6 +5762,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5126,6 +5771,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5134,6 +5780,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5142,6 +5789,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5150,6 +5798,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5158,6 +5807,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5166,6 +5816,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5174,6 +5825,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5182,6 +5834,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5190,6 +5843,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Steel", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5198,6 +5852,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Poison", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5206,6 +5861,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5214,6 +5870,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5222,6 +5879,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5230,6 +5888,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5238,6 +5897,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5246,6 +5906,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ghost", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5254,6 +5915,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5262,6 +5924,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5270,6 +5933,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5278,6 +5942,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5286,6 +5951,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5294,6 +5960,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5302,6 +5969,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5310,6 +5978,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5318,6 +5987,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5326,6 +5996,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5334,6 +6005,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ground", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5342,6 +6014,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5350,6 +6023,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5358,6 +6032,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5366,6 +6041,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5374,6 +6050,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5382,6 +6059,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5390,6 +6068,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5398,6 +6077,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5406,6 +6086,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5414,6 +6095,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5422,6 +6104,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5430,6 +6113,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5438,6 +6122,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5446,6 +6131,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5454,6 +6140,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5462,6 +6149,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5470,6 +6158,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5478,6 +6167,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5486,6 +6176,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5494,6 +6185,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5502,6 +6194,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5510,6 +6203,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Rock", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5518,6 +6212,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5526,6 +6221,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Ghost", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5534,6 +6230,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ground", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5542,6 +6239,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5550,6 +6248,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5558,6 +6257,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fire", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5566,6 +6266,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5574,6 +6275,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5582,6 +6284,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5590,6 +6293,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5598,6 +6302,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5606,6 +6311,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5614,6 +6320,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5622,6 +6329,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5630,6 +6338,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5638,6 +6347,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Bug", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5646,6 +6356,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5654,6 +6365,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5662,6 +6374,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5670,6 +6383,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5678,6 +6392,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5686,6 +6401,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5694,6 +6410,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5702,6 +6419,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5710,6 +6428,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dragon", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5718,6 +6437,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5726,6 +6446,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5734,6 +6455,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5742,6 +6464,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5750,6 +6473,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5758,6 +6482,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5766,6 +6491,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5774,6 +6500,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5782,6 +6509,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5790,6 +6518,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5798,6 +6527,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5806,6 +6536,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Steel", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5814,6 +6545,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Rock", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5822,6 +6554,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ground", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5830,6 +6563,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ground", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5838,6 +6572,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5846,6 +6581,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5854,6 +6590,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5862,6 +6599,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dragon", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5870,6 +6608,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5878,6 +6617,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5886,6 +6626,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5894,6 +6635,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5902,6 +6644,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5910,6 +6653,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5918,6 +6662,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Electric", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5926,6 +6671,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5934,6 +6680,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5942,6 +6689,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ground", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5950,6 +6698,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dark", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5958,6 +6707,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dragon", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5966,6 +6716,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Poison", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5974,6 +6725,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Poison", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5982,6 +6734,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5990,6 +6743,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -5998,6 +6752,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ground", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6006,6 +6761,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6014,6 +6770,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6022,6 +6779,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Ghost", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6030,6 +6788,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6038,6 +6797,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6046,6 +6806,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6054,6 +6815,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6062,6 +6824,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6070,6 +6833,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6078,6 +6842,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6086,6 +6851,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6094,6 +6860,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6102,6 +6869,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6110,6 +6878,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6118,6 +6887,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fairy", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6126,6 +6896,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6134,6 +6905,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6142,6 +6914,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6150,6 +6923,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6158,6 +6932,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6166,6 +6941,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6174,6 +6950,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6182,6 +6959,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6190,6 +6968,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6198,6 +6977,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6206,6 +6986,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6214,6 +6995,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6222,6 +7004,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6230,6 +7013,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6238,6 +7022,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ghost", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6246,6 +7031,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6254,6 +7040,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6262,6 +7049,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6270,6 +7058,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6278,6 +7067,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Rock", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6286,6 +7076,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Dark", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6294,6 +7085,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6302,6 +7094,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6310,6 +7103,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Poison", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6318,6 +7112,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6326,6 +7121,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Rock", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6334,6 +7130,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6342,6 +7139,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6350,6 +7148,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6358,6 +7157,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6366,6 +7166,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6374,6 +7175,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6382,6 +7184,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6390,6 +7193,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6398,6 +7202,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6406,6 +7211,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6414,6 +7220,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6422,6 +7229,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fire", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6430,6 +7238,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Steel", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6438,6 +7247,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fire", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6446,6 +7256,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6454,6 +7265,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6462,6 +7274,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6470,6 +7283,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Poison", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6478,6 +7292,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Poison", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6486,6 +7301,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Poison", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6494,6 +7310,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6502,6 +7319,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6510,6 +7328,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6518,6 +7337,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Dragon", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6526,6 +7346,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Bug", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6534,6 +7355,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6542,6 +7364,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6550,6 +7373,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6558,6 +7382,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6566,6 +7391,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6574,6 +7400,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6582,6 +7409,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6590,6 +7418,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ice", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6598,6 +7427,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Dark", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6606,6 +7436,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6614,6 +7445,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ice", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6622,6 +7454,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6630,6 +7463,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6638,6 +7472,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6646,6 +7481,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6654,6 +7490,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6662,6 +7499,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Psychic", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6670,6 +7508,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6678,6 +7517,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Rock", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6686,6 +7526,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6694,6 +7535,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6702,6 +7544,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6710,6 +7553,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6718,6 +7562,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6726,6 +7571,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6734,6 +7580,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6742,6 +7589,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6750,6 +7598,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6758,6 +7607,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6766,6 +7616,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6774,6 +7625,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6782,6 +7634,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6790,6 +7643,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Rock", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6798,6 +7652,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6806,6 +7661,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6814,6 +7670,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6822,6 +7679,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Normal", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6830,6 +7688,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6838,6 +7697,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6846,6 +7706,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Steel", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6854,6 +7715,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6862,6 +7724,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6870,6 +7733,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6878,6 +7742,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6886,6 +7751,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ground", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6894,6 +7760,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Poison", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6902,6 +7769,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6910,6 +7778,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6918,6 +7787,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6926,6 +7796,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6934,6 +7805,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6942,6 +7814,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6950,6 +7823,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6958,6 +7832,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6966,6 +7841,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6974,6 +7850,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6982,6 +7859,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6990,6 +7868,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Ground", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -6998,6 +7877,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7006,6 +7886,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7014,6 +7895,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7022,6 +7904,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7030,6 +7913,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7038,6 +7922,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fire", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7046,6 +7931,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7054,6 +7940,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7062,6 +7949,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7070,6 +7958,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7078,6 +7967,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7086,6 +7976,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Electric", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7094,6 +7985,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Psychic", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7102,6 +7994,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7110,6 +8003,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dragon", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7118,6 +8012,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7126,6 +8021,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7134,6 +8030,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7142,6 +8039,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7150,6 +8048,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7158,6 +8057,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7166,6 +8066,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Rock", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7174,6 +8075,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7182,6 +8084,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7190,6 +8093,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7198,6 +8102,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7206,6 +8111,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7214,6 +8120,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Dark", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7222,6 +8129,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fairy", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7230,6 +8138,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fairy", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7238,6 +8147,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Fairy", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7246,6 +8156,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7254,6 +8165,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ground", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7262,6 +8174,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Ground", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7270,6 +8183,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Electric", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7278,6 +8192,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Flying", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7286,6 +8201,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7294,6 +8210,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fairy", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7302,6 +8219,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7310,6 +8228,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7318,6 +8237,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7326,6 +8246,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7334,6 +8255,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ground", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7342,6 +8264,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7350,6 +8273,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7358,6 +8282,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7366,6 +8291,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7374,6 +8300,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Poison", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7382,6 +8309,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7390,6 +8318,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7398,6 +8327,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7406,6 +8336,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7414,6 +8345,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Grass", "Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7422,6 +8354,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Grass", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7430,6 +8363,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7438,6 +8372,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7446,6 +8381,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7454,6 +8390,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Fire", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7462,6 +8399,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7470,6 +8408,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7478,14 +8417,17 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
     name: "Typenull",
     img: "pokemon/TYPENULL.png",
+      FORM: ["Base"],
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7494,6 +8436,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7502,6 +8445,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Dark", "Rock"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7510,6 +8454,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Rock", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7518,6 +8463,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7526,6 +8472,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Rock", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7534,6 +8481,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7542,6 +8490,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Flying", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7550,6 +8499,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7558,6 +8508,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Ground", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7566,6 +8517,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7574,6 +8526,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Water", "Fighting", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7582,6 +8535,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7590,6 +8544,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7598,6 +8553,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7606,6 +8562,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7614,6 +8571,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7622,6 +8580,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Steel", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7630,6 +8589,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7638,6 +8598,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7646,6 +8607,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7654,6 +8616,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7662,6 +8625,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7670,6 +8634,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7678,6 +8643,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Ground", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7686,6 +8652,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7694,6 +8661,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7702,6 +8670,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7710,6 +8679,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7718,6 +8688,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7726,6 +8697,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass", "Fighting"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7734,6 +8706,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Flying", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7742,6 +8715,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7750,6 +8724,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Water", "Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7758,6 +8733,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Fire", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7766,6 +8742,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7774,6 +8751,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7782,6 +8760,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fire"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7790,6 +8769,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7798,6 +8778,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7806,6 +8787,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7814,6 +8796,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Ice"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7822,6 +8805,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7830,6 +8814,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7838,6 +8823,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Electric", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7846,6 +8832,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Ice", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7854,6 +8841,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7862,6 +8850,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Grass", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7870,6 +8859,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7878,6 +8868,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Grass", "Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7886,6 +8877,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Bug", "Poison"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7894,6 +8886,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7902,6 +8895,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7910,6 +8904,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Fairy", "Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7918,6 +8913,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7926,6 +8922,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Bug", "Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7934,6 +8931,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Water", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7942,6 +8940,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7950,6 +8949,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7958,6 +8958,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Grass", "Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7966,6 +8967,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Psychic", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7974,6 +8976,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7982,6 +8985,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Water", "Ground"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7990,6 +8994,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen4"],
         TYPE: ["Grass", "Ground", "Steel", "Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -7998,6 +9003,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen9"],
         TYPE: ["Water"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8006,6 +9012,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Bug"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8014,6 +9021,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8022,6 +9030,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Normal", "Psychic"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8030,6 +9039,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Psychic", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8038,6 +9048,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Fairy"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8046,6 +9057,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8054,6 +9066,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ghost"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8062,6 +9075,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8070,6 +9084,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8078,6 +9093,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen2"],
         TYPE: ["Bug", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8086,6 +9102,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8094,6 +9111,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen6"],
         TYPE: ["Dark", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8102,6 +9120,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fairy", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8110,6 +9129,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Fighting", "Steel"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8118,6 +9138,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8126,6 +9147,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Electric", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8134,6 +9156,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen8"],
         TYPE: ["Dark", "Grass"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8142,6 +9165,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8150,6 +9174,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Electric", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8158,6 +9183,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen7"],
         TYPE: ["Electric"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8166,6 +9192,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen3"],
         TYPE: ["Normal"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8174,6 +9201,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8182,6 +9210,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8190,6 +9219,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen1"],
         TYPE: ["Poison", "Flying"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8198,6 +9228,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Dark", "Dragon"],
+      FORM: ["Base"],
     }
   },
 {
@@ -8206,9 +9237,259 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       GENERATION: ["gen5"],
         TYPE: ["Ground", "Dragon"],
+      FORM: ["Base"],
     }
   },
-
-
-
+{
+    name: "Mega Venusaur",
+    img: "pokemon/VENUSAUR_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Grass", "Poison"],
+      FORM: ["Mega"],
+    }
+  },
+{
+    name: "Mega Charizard X",
+    img: "pokemon/CHARIZARD_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Fire", "Dragon"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Charizard Y",
+    img: "pokemon/CHARIZARD_2.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Fire", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Blastoise",
+    img: "pokemon/BLASTOISE_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Water"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Beedrill",
+    img: "pokemon/BEEDRILL_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Bug", "Poison"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Pidgeot",
+    img: "pokemon/PIDGEOT_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Normal", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Raichu X",
+    img: "pokemon/RAICHU_2.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Electric"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Raichu Y",
+    img: "pokemon/RAICHU_3.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Electric"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Clefable",
+    img: "pokemon/CLEFABLE_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Fairy", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Alakazam",
+    img: "pokemon/ALAKAZAM_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Victreebel",
+    img: "pokemon/VICTREEBEL.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Grass", "Poison"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Slowbro",
+    img: "pokemon/SLOWBRO_2.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Water", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Gengar",
+    img: "pokemon/GENGAR_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Poison", "Ghost"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Kangaskhan",
+    img: "pokemon/KANGASKHAN_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Normal"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Starmie",
+    img: "pokemon/STARMIE_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Water", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Pinsir",
+    img: "pokemon/PINSIR_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Bug", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Gyarados",
+    img: "pokemon/GYARADOS_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Dark", "Water"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Aerodactyl",
+    img: "pokemon/AERODACTYL_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Flying", "Rock"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Dragonite",
+    img: "pokemon/DRAGONITE_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Dragon", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Mewtwo X",
+    img: "pokemon/MEWTWO_1.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Fighting", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Mewtwo Y",
+    img: "pokemon/MEWTWO_2.png",
+    opts: {
+      GENERATION: ["gen1"],
+        TYPE: ["Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Meganium",
+    img: "pokemon/MEGANIUM_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Grass", "Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega FERALIGATR",
+    img: "pokemon/FERALIGATR_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Dragon", "Water"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Ampharos",
+    img: "pokemon/AMPHAROS_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Electric", "Dragon"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Steelix",
+    img: "pokemon/STEELIX_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Steel", "Ground"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Scizor",
+    img: "pokemon/SCIZOR_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Bug", "Steel"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Heracross",
+    img: "pokemon/HERACROSS_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Fighting", "Bug"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Skarmory",
+    img: "pokemon/SKARMORY_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Steel", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
 ];
