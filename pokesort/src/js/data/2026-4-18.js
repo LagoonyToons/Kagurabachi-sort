@@ -9492,4 +9492,607 @@ dataSet[dataSetVersion].characterData = [
       FORM: ["Mega"],
     }
   },
+  {
+    name: "Mega Houndoom",
+    img: "pokemon/HOUNDOOM_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Dark", "Fire"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Tyranitar",
+    img: "pokemon/TYRANITAR_1.png",
+    opts: {
+      GENERATION: ["gen2"],
+        TYPE: ["Rock", "Dark"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Sceptile",
+    img: "pokemon/SCETIPLE_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Grass", "Dragon"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Blaziken",
+    img: "pokemon/BLAZIKEN_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Fire", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Swampert",
+    img: "pokemon/SWAMPERT_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Water", "Ground"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Gardevoir",
+    img: "pokemon/GARDEVOIR_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Psychic", "Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Sableye",
+    img: "pokemon/SABLEYE_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Dark", "Ghost"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Mawile",
+    img: "pokemon/MAWILE_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Steel", "Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Aggron",
+    img: "pokemon/AGGRON_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Steel", "Rock"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Medicham",
+    img: "pokemon/MEDICHAM_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Fighting", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Manectric",
+    img: "pokemon/MANECTRIC_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Electric"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Sharpedo",
+    img: "pokemon/SHARPEDO_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Water", "Dark"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Camerupt",
+    img: "pokemon/CAMERUPT_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Fire", "Ground"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Altaria",
+    img: "pokemon/ALTARIA_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Dragon", "Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Banette",
+    img: "pokemon/BANETTE_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Ghost"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Chimecho",
+    img: "pokemon/CHIMECHO_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Psychic", "Steel"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Absol",
+    img: "pokemon/ABSOL_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Dark"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Absol Z",
+    img: "pokemon/ABSOL_2.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Ghost", "Dark"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Glalie",
+    img: "pokemon/GLALIE_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Ice"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Salamence",
+    img: "pokemon/SALAMENCE_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Dragon", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Metagross",
+    img: "pokemon/METAGROSS_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Steel", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Latias",
+    img: "pokemon/LATIAS_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Dragon", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Latios",
+    img: "pokemon/LATIOS_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Dragon", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Rayquaza",
+    img: "pokemon/RAYQUAZA_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Dragon", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Staraptor",
+    img: "pokemon/STARAPTOR_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Normal", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Lopunny",
+    img: "pokemon/LOPUNNY_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Normal", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Garchomp",
+    img: "pokemon/GARCHOMP_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Dragon", "Ground"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Garchomp Z",
+    img: "pokemon/GARCHOMP_2.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Dragon"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Lucario",
+    img: "pokemon/LUCARIO_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Steel", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Lucario Z",
+    img: "pokemon/LUCARIO_2.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Steel", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Abomasnow",
+    img: "pokemon/ABOMASNOW_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Grass", "Ice"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Gallade",
+    img: "pokemon/GALLADE_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Psychic", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Froslass",
+    img: "pokemon/FROSASS_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Ice", "Ghost"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Heatran",
+    img: "pokemon/HEATRAN_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Fire", "Steel"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Darkrai",
+    img: "pokemon/DARKRAI_1.png",
+    opts: {
+      GENERATION: ["gen4"],
+        TYPE: ["Dark"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Emboar",
+    img: "pokemon/EMBOAR_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Fire", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Excadrill",
+    img: "pokemon/EXCADRILL_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Ground", "Steel"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Audino",
+    img: "pokemon/AUDINO_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Normal", "Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Scolipede",
+    img: "pokemon/SCOLIPEDE_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Bug", "Poison"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Scrafty",
+    img: "pokemon/SCRAFTY_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Fighting", "Dark"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Eelektross",
+    img: "pokemon/EELEKTROSS_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Electric"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Chandelure",
+    img: "pokemon/CHANDELURE_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Fire", "Ghost"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Golurk",
+    img: "pokemon/GOLURK_1.png",
+    opts: {
+      GENERATION: ["gen5"],
+        TYPE: ["Ground", "Ghost"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Chesnaught",
+    img: "pokemon/CHESNAUGHT_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Grass", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Delphox",
+    img: "pokemon/DELPHOX_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Fire", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Greninja",
+    img: "pokemon/GRENINJA_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Water", "Dark"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Pyroar",
+    img: "pokemon/PYROAR_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Fire", "Normal"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Floette Eternal Flower",
+    img: "pokemon/FLOETTE_6.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Meowstic",
+    img: "pokemon/MEOWSTIC_2.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Malamar",
+    img: "pokemon/MALAMAR_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Dark", "Psychic"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Barbacle",
+    img: "pokemon/BARBACLE_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Fighting", "Rock"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Dragalge",
+    img: "pokemon/DRAGALGE_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Poison", "Dragon"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Hawlucha",
+    img: "pokemon/HAWLUCHA_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Fighting", "Flying"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Zygarde",
+    img: "pokemon/ZYGARDE_3.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Dragon", "Ground"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Diancie",
+    img: "pokemon/DIANCIE_1.png",
+    opts: {
+      GENERATION: ["gen6"],
+        TYPE: ["Rock", "Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Crabominable",
+    img: "pokemon/CRABOMINABLE_1.png",
+    opts: {
+      GENERATION: ["gen7"],
+        TYPE: ["Ice", "Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Golisopod",
+    img: "pokemon/GOLISOPOD_1.png",
+    opts: {
+      GENERATION: ["gen7"],
+        TYPE: ["Steel", "Bug"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Drampa",
+    img: "pokemon/DRAMPA_1.png",
+    opts: {
+      GENERATION: ["gen7"],
+        TYPE: ["Dragon", "Normal"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Magearna",
+    img: "pokemon/MAGEARNA_1.png",
+    opts: {
+      GENERATION: ["gen7"],
+        TYPE: ["Steel", "Fairy"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Zeraora",
+    img: "pokemon/ZERAORA_1.png",
+    opts: {
+      GENERATION: ["gen7"],
+        TYPE: ["Electric"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Falinks",
+    img: "pokemon/FALINKS_1.png",
+    opts: {
+      GENERATION: ["gen8"],
+        TYPE: ["Fighting"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Scovillain",
+    img: "pokemon/SCOVILLAIN_1.png",
+    opts: {
+      GENERATION: ["gen8"],
+        TYPE: ["Grass", "Fire"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Glimmora",
+    img: "pokemon/GLIMMORA_1.png",
+    opts: {
+      GENERATION: ["gen8"],
+        TYPE: ["Rock", "Poison"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Tatsugiri",
+    img: "pokemon/TATSUGIRI_3.png",
+    opts: {
+      GENERATION: ["gen9"],
+        TYPE: ["Water", "Dragon"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Baxcalibur",
+    img: "pokemon/BAXCALIBUR_1.png",
+    opts: {
+      GENERATION: ["gen9"],
+        TYPE: ["Dragon", "Ice"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Primal Kyogre ",
+    img: "pokemon/KYOGRE_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Water"],
+      FORM: ["Mega"],
+    }
+  },
+  {
+    name: "Mega Groudon",
+    img: "pokemon/GROUDON_1.png",
+    opts: {
+      GENERATION: ["gen3"],
+        TYPE: ["Ground", "Fire"],
+      FORM: ["Mega"],
+    }
+  },
 ];
